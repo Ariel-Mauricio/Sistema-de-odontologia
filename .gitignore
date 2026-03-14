@@ -18,3 +18,18 @@ package-lock.json
 npm-debug.log
 .angular/
 build/
+
+# Laravel runtime / generated files
+backend/.env
+backend/vendor/
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Keep folders
+!backend/storage/logs/.gitignore
+!backend/storage/framework/cache/data/.gitignore
+!backend/storage/framework/sessions/.gitignore
+!backend/storage/framework/views/.gitignore
